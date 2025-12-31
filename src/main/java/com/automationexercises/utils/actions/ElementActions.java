@@ -1,7 +1,7 @@
-package com.blazedemo.utils.actions;
+package com.automationexercises.utils.actions;
 
-import com.blazedemo.utils.WaitManager;
-import com.blazedemo.utils.logs.LogsManager;
+import com.automationexercises.utils.WaitManager;
+import com.automationexercises.utils.logs.LogsManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

@@ -1,7 +1,7 @@
-package com.blazedemo.drivers;
+package com.automationexercises.drivers;
 
-import com.blazedemo.utils.dataReader.PropertyReader;
-import com.blazedemo.utils.logs.LogsManager;
+import com.automationexercises.utils.dataReader.PropertyReader;
+import com.automationexercises.utils.logs.LogsManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ThreadGuard;
 

@@ -1,13 +1,13 @@
-package com.blazedemo.drivers;
+package com.automationexercises.drivers;
 
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 
-public class ChromeFactory extends AbstractDriver {
-    private ChromeOptions getOptions() {
-        ChromeOptions options = new ChromeOptions();
+public class EdgeFactory extends AbstractDriver {
+    private EdgeOptions getOptions() {
+        EdgeOptions options = new EdgeOptions();
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--disable-notifications");
         options.addArguments("--disable-popup-blocking");
@@ -15,6 +15,7 @@ public class ChromeFactory extends AbstractDriver {
         options.addArguments("--disable-extensions");
         options.addArguments("--disable-gpu");
         options.addArguments("--start-maximized");
+        options.addArguments("--headless=new"); // Run in headless mode
         options.setAcceptInsecureCerts(true);
         options.setPageLoadStrategy(PageLoadStrategy.EAGER);
         return options;
@@ -22,6 +23,6 @@ public class ChromeFactory extends AbstractDriver {
 
     @Override
     public WebDriver createDriver() {
-        return new ChromeDriver(getOptions());
+        return new EdgeDriver(getOptions());
     }
 }

@@ -1,6 +1,6 @@
-package com.blazedemo.utils.dataReader;
+package com.automationexercises.utils.dataReader;
 
-import com.blazedemo.utils.logs.LogsManager;
+import com.automationexercises.utils.logs.LogsManager;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;

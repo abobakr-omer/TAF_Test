@@ -1,4 +1,4 @@
-package com.blazedemo.utils;
+package com.automationexercises.utils;
 
 public class TimeManager {
     //screenshots - logs - reports

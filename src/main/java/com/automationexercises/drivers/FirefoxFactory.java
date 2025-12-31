@@ -1,4 +1,4 @@
-package com.blazedemo.drivers;
+package com.automationexercises.drivers;
 
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;

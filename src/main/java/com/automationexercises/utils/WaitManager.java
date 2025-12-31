@@ -1,4 +1,4 @@
-package com.blazedemo.utils;
+package com.automationexercises.utils;
 
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.ElementNotInteractableException;
